@@ -1,0 +1,77 @@
+/*
+    [ Shortcode Stylesheet ]
+    <?xml version="1.0" encoding="UTF-8"?>
+
+    Theme Name: 
+    Version: 
+    Author: 
+    Author URL: 
+    Description: 
+    Date: 
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1. Fonts, Icons and Other Styles Import
+2. Reset
+  2-1. Body, Font, Container, Space
+  2-2. Placeholder Customize
+  2-3. Social Icons Color
+  2-4. Input, Textarea (All forms field) customization
+  2-5. Button Styling
+ 
+
+-----------------------------------------------------------------*/
+@import url("garet.css");
+@import url("fraunces.css");
+@import url("bootstrap-icons.css");
+@import url("bootstrap.min.css");
+@import url("animation.css");                                                     
+@import url("animate.css");
+@import url("swiper-bundle.min.css");
+@import url("odometer-theme-default.css");
+@import url("jquery.fancybox.css");
+@import url("fullcalendar.min.css");
+@import url("flatpickr.css");
+@import url("nice-select.css");
+
+@import url("global.css");
+@import url("header.css");
+@import url("footer.css");
+@import url("preloader.css");
+@import url("components.css");
+@import url("contact.css");
+@import url("blog.css");
+@import url("sidebar.css");
+@import url("portfolio.css");
+@import url("style.css");
+@import url("responsive.css");
+
+/*Custom Stylesheet*/
+.custom-slider {
+  height: 780px;
+}
+.swiper-slide .wptb-item--inner {
+  width: 80%;
+}
+@media screen and (max-width:991px) {
+   .custom-slider {
+  height: auto;
+}
+}
+@media screen and (max-width: 450px) {
+
+  .wptb-slider .wptb-slider--image {
+    height: 100%;
+  }
+  .custom-slider {
+  height: 750px;
+}
+ .header .header-inner {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+ }
+ .swiper-slide .wptb-item--inner {
+  width: 90%;
+}
+}
