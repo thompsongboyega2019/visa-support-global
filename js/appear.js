@@ -18,9 +18,9 @@
 
  */
 
-(function($) {
+(function ($) {
 
-    $.fn.appear = function(fn, options) {
+    $.fn.appear = function (fn, options) {
 
 
 
@@ -52,7 +52,7 @@
 
 
 
-        return this.each(function() {
+        return this.each(function () {
 
 
 
@@ -86,7 +86,7 @@
 
             //fires the appear event when appropriate
 
-            var check = function() {
+            var check = function () {
 
 
 
@@ -166,7 +166,7 @@
 
             //create a modified fn with some additional logic
 
-            var modifiedFn = function() {
+            var modifiedFn = function () {
 
 
 
@@ -246,11 +246,12 @@
 
         //process the queue
 
-        checkAll: function() {
+        checkAll: function () {
 
             var length = $.fn.appear.checks.length;
 
-            if (length > 0) while (length--) ($.fn.appear.checks[length])();
+            if (length > 0)
+                while (length--)($.fn.appear.checks[length])();
 
         },
 
@@ -258,7 +259,7 @@
 
         //check the queue asynchronously
 
-        run: function() {
+        run: function () {
 
             if ($.fn.appear.timeout) clearTimeout($.fn.appear.timeout);
 
@@ -276,13 +277,14 @@
 
         'removeAttr', 'addClass', 'removeClass', 'toggleClass',
 
-        'remove', 'css', 'show', 'hide'], function(i, n) {
+        'remove', 'css', 'show', 'hide'
+    ], function (i, n) {
 
         var old = $.fn[n];
 
         if (old) {
 
-            $.fn[n] = function() {
+            $.fn[n] = function () {
 
                 var r = old.apply(this, arguments);
 
