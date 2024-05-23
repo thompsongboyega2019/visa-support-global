@@ -4,7 +4,7 @@ Ready Components Stylesheet
 /* Section Heading */
 .wptb-heading {
     position: relative;
-    margin-bottom: 50px;
+/*    margin-bottom: 50px;*/
 }
 .wptb-heading .wptb-item--subtitle {
     color: var(--color-primary);
@@ -25,8 +25,8 @@ Ready Components Stylesheet
 .wptb-heading .wptb-item--title {
     position: relative;
     z-index: 1;
-    color: var(--color-two);
-    font-size: var(--fs-53);
+    color: var(--color-primary);
+    font-size: var(--fs-35);
     font-weight: var(--fw-normal);
     line-height: var(--fs-60);
     letter-spacing: -1.06px;
@@ -44,8 +44,8 @@ Ready Components Stylesheet
     left: 0;
     top: 100%;
     width: 84px;
-    height: 2px;
-    background-color: var(--color-dark-blue);
+    height: 5px;
+    background-color: var(--color-two);
 }
 
 .wptb-heading .wptb-item--description {
@@ -109,8 +109,8 @@ Ready Components Stylesheet
 
 .wptb-page-heading .wptb-item--title {
     color: var(--color-white);
-    font-size: 70px;
-    font-weight: 400;
+    font-size: 55px;
+    font-weight: 600;
     margin-bottom: 0px;
 }
 
@@ -656,6 +656,7 @@ Ready Components Stylesheet
 
 .wptb-image-box1 .wptb-item--image img {
     width: 100%;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .wptb-image-box1 .wptb-item--image a {
@@ -1768,7 +1769,7 @@ Ready Components Stylesheet
     position: relative;
     font-size: 24px;
     line-height: 34px;
-    padding: 27px 30px;
+    padding: 10px 20px;
     min-height: 66px;
     display: flex;
     align-items: center;
@@ -1807,12 +1808,13 @@ Ready Components Stylesheet
 }
 
 .wptb-accordion2 .wptb--item.active .wptb-item-title {
-    border: 1px solid var(--color-one);
+    border: 1px solid #008080;
+  color: #008080;
 }
 
 .wptb-accordion2 .wptb--item.active .wptb-item-title i {
     transform: translateY(-50%) rotateZ(180deg);
-    background-color: var(--color-one);
+    background-color: var(--color-secondary);
     color: var(--color-white);
 }
 
@@ -3622,6 +3624,7 @@ svg.radial-progress {
     padding: 40px;
     margin-bottom: 30px;
     box-shadow: 0px 21.15px 51.911px 0px rgba(0, 0, 0, 0.07);
+    height: 400px;
 
 }
 .wptb-country-grid .wptb-icon-box1 {
@@ -3639,7 +3642,7 @@ svg.radial-progress {
 }
 
 .wptb-country-grid .wptb-icon-box1 .wptb-item--title {
-    font-size: 18px;
+    font-size: 30px;
 }
 
 .wptb-country-grid .wptb-icon-box1 .wptb-item--description {
@@ -3707,15 +3710,15 @@ svg.radial-progress {
     position: relative;
     z-index: 1;
     width: 100%;
-    height: 835px;
+    height: 550px;
     overflow: hidden;
     display: flex;
-    background-color: var(--color-primary);
+    background-color: #0d0d3a;
 }
 .wptb-country-tab .wptb-country-tab--item {
     position: relative;
     width: 110px;
-    border-left: 1px solid rgba(var(--color-white-rgb), 0.2);
+    border-left: 1px solid rgba(var(--color-secondary-rgb), 0.2);
     overflow: hidden;
     transition: var(--transition-base);
     display: flex;
@@ -3731,7 +3734,7 @@ svg.radial-progress {
     z-index: 1;
     width: 110px;
     height: 100%;
-    background: var(--color-four);
+    background: #191970;
     color: var(--color-white);
     font-size: 40px;
     line-height: 50px;
@@ -3822,7 +3825,6 @@ svg.radial-progress {
     position: relative;
     align-items: center;
     z-index: 1;
-    background-color: rgba(var(--color-white-rgb),.5);
 }
 
 .wptb-country-tab .wptb-country-tab--details .wptb-list1 .wptb--item .wptb-item--icon i:after {

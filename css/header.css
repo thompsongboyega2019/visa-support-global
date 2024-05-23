@@ -75,7 +75,7 @@
 }
 
 .header .social-box ul li a:hover{
-	color:var(--color-one);
+	color:var(--color-secondary);
   transform: translateY(-3px);
 }
 
@@ -111,7 +111,7 @@
 }
 
 .header .info-list li a:hover{
-  color:var(--color-one);
+  color:var(--color-secondary);
 }
 .header .button-box {
   margin-left: 40px;
@@ -202,7 +202,7 @@
 }
 
 .header .mainnav ul.main-menu li ul li a:hover {
-  color: var(--color-one);
+  color: var(--color-secondary);
 }
 
 .header .mainnav ul.main-menu li ul li:last-child > a {
@@ -233,7 +233,7 @@
 
 .header .mainnav ul.main-menu > li.menu-item-has-children > a::after {
   content: "\F282";
-  color: var(--color-two);
+  color: #000;
   font-family: 'bootstrap-icons';
   speak: none;
   transition: var(--transition-base);
@@ -244,7 +244,7 @@
 }
 
 .header .mainnav ul.main-menu > li.menu-item-has-children.current > a::after, .header .mainnav ul.main-menu > li.menu-item-has-children.active > a::after, .header .mainnav ul.main-menu > li.menu-item-has-children:hover > a::after {
-  color: var(--color-one);
+  color: var(--color-secondary);
 }
 
 
@@ -778,7 +778,7 @@ body.left_menu .mr_menu {
 }
 
 .header.style3 .wptb-icon-box1.live-chat .wptb-item--icon{
-  background-color: var(--color-primary);
+  background-color: var(--color-two);
   padding: 5px;
 }
 

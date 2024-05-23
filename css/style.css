@@ -73,17 +73,17 @@
 
 
 /* About Company One */
-.wptb-about-company-one.pd-more {
+/*.wptb-about-company-one.pd-more {
     padding-bottom: 165px;
-}
+}*/
 .wptb-about-company-one .wptb-image-single .wptb-item--image {
     position: relative;
-    padding-left: 100px;
     padding-right: 50px;
 }
 .wptb-about-company-one .wptb-image-single .wptb-item--image img.image-main {
-    min-height: 600px;
-    object-fit: cover;
+    /*min-height: 600px;
+    object-fit: cover;*/
+    border-radius: 30px;
 }
 .wptb-about-company-one .wptb-client-review2 {
     position: absolute;
@@ -429,7 +429,7 @@
 }
 
 .wptb-country-tab .wptb-country-tab--details .wptb-image-single .wptb-item--image img {
-    border-color: var(--color-light);
+    border-color: var(--color-secondary);
 }
 
 .wptb-country-tab-two .wptb-country-tab .wptb-item--button .btn--readmore {
@@ -559,9 +559,9 @@
 }
 
 /* Service Three */
-.wptb-service-three {
+/*.wptb-service-three {
     padding-bottom: 180px;
-}
+}*/
 .wptb-service-three .wptb-image-box1 .wptb-item--inner .wptb-item--holder {
     border: 1px solid #375177;
     background-color: var(--color-two);

@@ -54,6 +54,19 @@
 .swiper-slide .wptb-item--inner {
   width: 80%;
 }
+.wptb-service-one .swiper-slide .wptb-item--inner {
+  width: 100%;
+}
+li > i.secondary-footer-icon {
+  font-size: 18px !important;
+  margin-right: 10px;
+}
+.footer-bottom .footer-bottom-inner .copyright p a{
+  color: var(--color-secondary) !important;
+} 
+.footer-bottom .footer-bottom-inner .copyright {
+  padding-top: 10px;
+}
 @media screen and (max-width:991px) {
    .custom-slider {
   height: auto;

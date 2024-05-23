@@ -163,7 +163,7 @@
     --color-one-rgb:          25, 25, 112;
 
     --color-secondary:      #008080;
-    --color-secondary-rgb:    0, 128, 128;
+    --color-secondary-rgb:   0, 128, 128;
     --color-two:            #008080;
     --color-two-rgb:          0, 128, 128;
 
@@ -315,19 +315,22 @@ main,
     font-weight: var(--fw-semibold);
 }
 .fw-bold {
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-bold) !important;
 }
 
 /* Background Set Class */
 .bg-one {
-    background-color: var(--color-one);
+    background-color: var(--color-one) !important;
 }
 .bg-two {
-    background-color: var(--color-two);
+    background-color: var(--color-two) !important;
 }
 
 .bg-gradient-one {
     background: var(--gradient-one) !important;
+}
+.bg-grey {
+    background-color: #f3f3f3 !important;
 }
 
 /* Text Set Class */
@@ -335,7 +338,7 @@ main,
     color: var(--color-one);
 }
 .text-two {
-    color: var(--color-two);
+    color: var(--color-secondary);
 }
 .text-three {
     color: var(--color-three);
@@ -398,7 +401,7 @@ a {
     -ms-transition: var(--transition-bezier);
     -o-transition: var(--transition-bezier);
     transition: var(--transition-bezier);
-    color: var(--link-color);
+    color: #090927;
     text-decoration: none;
     outline: none;
     display: inline-block;
@@ -472,7 +475,7 @@ img {
 
 .section, section{
     position: relative;
-    padding: 115px 0px;
+    padding: 100px 0px;
     z-index: 1;
 }
 

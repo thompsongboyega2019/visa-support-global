@@ -183,6 +183,9 @@
         text-align: left;
         width: 100%;
     }
+    section,.footer .footer-top {
+        padding-top: 80px !important;
+    }
 }
 
 @media screen and (max-width: 575px) {
